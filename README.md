@@ -30,28 +30,6 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
@@ -86,14 +64,59 @@ A fully functional **Bookstore Management System** built with Laravel. This appl
 - 🔎 **Advanced Search**
   - Search books by title, author, ISBN.
   - Filter books by price range and availability in stock.
---
+---
 
 ## 🛠️ Tech Stack
 
 - **Backend**: Laravel 10+
 - **Database**: MySQL / MariaDB
-- **Frontend**: Blade templating / Bootstrap .
+- **Frontend**: Blade templating / Bootstrap / Tailwind CSS (if used)
 - **Others**: Laravel Eloquent ORM, Artisan Console, Laravel Validation
+
+---📂 Project Structure
+├── app/
+│   ├── Models/Book.php
+│   ├── Models/Author.php
+│   ├── Http/Controllers/
+│   └── ...
+├── resources/views/
+│   ├── books/
+│   ├── authors/
+│   └── layouts/
+├── routes/web.php
+└── database/seeders/
+
+---🙌 Acknowledgements
+|-Laravel Framework
+|-Bootstrap
+|-Community packages and contributors
+
+
+## ⚙️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/bookstore.git
+cd bookstore
+
+# Install dependencies
+composer install
+
+# Copy .env and configure
+cp .env.example .env
+php artisan key:generate
+
+# Set your database credentials in .env
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+# Run migrations and seeders
+php artisan migrate --seed
+
+# Serve the application
+php artisan serve
+
 
 ---
 
