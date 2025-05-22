@@ -7,6 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+![lar](https://github.com/user-attachments/assets/22e4b5f8-cf67-4242-b414-5da24ce9ddc9)
+🧑‍💻 Author 
+MD.MURAD HASAN  
+ID:0322320105101008
+
+
 # 📚 Bookstore – Laravel Project
 
 A fully functional **Bookstore Management System** built with Laravel. This application allows users to manage a vast collection of books (1000+ entries) along with their respective authors, ISBNs, prices, and stock levels.
